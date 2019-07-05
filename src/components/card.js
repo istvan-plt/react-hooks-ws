@@ -10,7 +10,9 @@ const createStyle = props => ({
   display: "flex",
   alignItems: "center",
   flexDirection: "column",
-  padding: "50px 70px",
+  justifyContent: "center",
+  width: 450,
+  height: 300,
   background: props.type === "hook" ? "#d400004d" : "#00bcd44d",
   borderRadius: 20
 });
